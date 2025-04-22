@@ -52,6 +52,18 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				delivery: {
+					DEFAULT: '#2563eb', // blue-600
+					light: '#60a5fa', // blue-400
+					dark: '#1d4ed8', // blue-700
+					foreground: '#ffffff',
+				},
+				status: {
+					requested: '#f59e0b', // amber-500
+					accepted: '#8b5cf6', // violet-500
+					transit: '#3b82f6', // blue-500
+					delivered: '#10b981', // emerald-500
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
